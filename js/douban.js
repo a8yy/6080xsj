@@ -237,7 +237,7 @@ async function fillAndSearchWithDouban(title) {
             // 使用HTML5 History API更新URL，不刷新页面
             window.history.pushState(
                 { search: safeTitle }, 
-                `搜索: ${safeTitle} - LibreTV`, 
+                `搜索: ${safeTitle} - 6080新视觉`, 
                 `/s=${encodedQuery}`
             );
             // 更新页面标题
