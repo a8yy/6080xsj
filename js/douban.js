@@ -241,7 +241,7 @@ async function fillAndSearchWithDouban(title) {
                 `/s=${encodedQuery}`
             );
             // 更新页面标题
-            document.title = `搜索: ${safeTitle} - LibreTV`;
+            document.title = `搜索: ${safeTitle} - 6080新视觉`;
         } catch (e) {
             console.error('更新浏览器历史失败:', e);
         }
